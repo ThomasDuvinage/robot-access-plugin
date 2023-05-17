@@ -1,2 +1,8 @@
+option(CHOREONOID_PLUGIN_LINK_USE_KEYWORD "Choreonoid plugin should use the PUBLIC link keyword" ON)
+if(CHOREONOID_PLUGIN_LINK_USE_KEYWORD)
+  set(LINK_KEYWORD PUBLIC)
+else()
+  set(LINK_KEYWORD)
+endif()
 add_subdirectory(RobotAccessPlugin)
 add_subdirectory(Hrpsys31Plugin)
