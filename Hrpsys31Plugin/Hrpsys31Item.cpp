@@ -21,6 +21,7 @@
 #include <rtm/idl/RTC.hh>
 #include <fmt/format.h>
 #include <iostream>
+#include <boost/optional.hpp>
 #include "gettext.h"
 
 using namespace std;
